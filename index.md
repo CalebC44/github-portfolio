@@ -1,9 +1,3 @@
-# Introduction
-
-Welcome! This is my professional portfolio where I showcase my technical skills, projects, and experience in cybersecurity and software development.
-
----
-
 ## About Me
 I am a [your role, e.g., *Cybersecurity Student | Aspiring Security Analyst*] with experience in:
 - Penetration testing & system hardening  
