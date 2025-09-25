@@ -15,8 +15,8 @@ Automated setup of Apache and Nginx with firewall rules and TLS configuration.
 
 **[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
 
-### 🔹 Embedded Systems Encryption (C)
-Implemented an encryption algorithm to enable secure communication between embedded devices.
+### 🔹 Automated Reconnaissance Tool
+Created a Python script that takes a domain name as input and automatically performs basic reconnaissance.
 
 **[View the code on GitHub](https://github.com/calebc44/your-repo-name)**
 
