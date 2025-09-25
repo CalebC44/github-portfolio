@@ -1,8 +1,3 @@
----
-layout: default
-title: Caleb Caballero - Portfolio
----
-
 ## About Me
 I a [your role, e.g., *Cybersecurity Student | Aspiring Security Analyst*] with experience in:
 - Penetration testing & system hardening  
