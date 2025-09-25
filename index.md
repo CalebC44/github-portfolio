@@ -36,7 +36,7 @@ Implemented an encryption algorithm to enable secure communication between embed
 ---
 
 ## Contact
-- **LinkedIn**: [Caleb Caballero](https://www.linkedin.com/in/caleb-c-a6a0a7271/)
+- **LinkedIn**: [https://www.linkedin.com/in/caleb-c-a6a0a7271/](https://www.linkedin.com/in/caleb-c-a6a0a7271/)
 - **Email**: caleb.caballero44@gmail.com
 - **Resume**: [Link to your resume file or a Google Docs link]
 
