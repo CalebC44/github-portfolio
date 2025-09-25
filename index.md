@@ -1,8 +1,9 @@
-I a [your role, e.g., *Cybersecurity Student | Aspiring Security Analyst*] with experience in:
-- Penetration testing & system hardening  
-- Programming in Python, C, PowerShell, and C#  
-- Linux administration (Ubuntu, Rocky Linux)  
-- Building and automating secure systems  
+## About Me
+I am an aspiring cybersecurity professional with experience in:
+- Penetration testing & system hardening
+- Programming in Python, C, PowerShell, and C#
+- Linux administration (Ubuntu, Rocky Linux)
+- Building and automating secure systems
 
 I enjoy solving problems, learning new technologies, and applying my knowledge through hands-on projects.
 
@@ -10,27 +11,34 @@ I enjoy solving problems, learning new technologies, and applying my knowledge t
 
 ## Featured Projects
 ### 🔹 Secure Web Server Deployment Scripts
-Automated setup of Apache and Nginx with firewall rules and TLS configuration.  
+Automated setup of Apache and Nginx with firewall rules and TLS configuration.
+
+**[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
 
 ### 🔹 Monopoly in C#
-Recreated the classic board game as a turn-based console application.  
+Recreated the classic board game as a turn-based console application.
+
+**[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Live Demo](https://your-live-demo-link.com)**
 
 ### 🔹 Embedded Systems Encryption (C)
-Implemented an encryption algorithm to enable secure communication between embedded devices.  
+Implemented an encryption algorithm to enable secure communication between embedded devices.
+
+**[View the code on GitHub](https://github.com/calebc44/your-repo-name)**
 
 ---
 
 ## Skills
-- **Languages**: Python, C, C#, PowerShell, Bash  
-- **Cybersecurity**: Penetration testing, Linux hardening, malware analysis labs  
-- **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware  
-- **Systems**: Linux (Ubuntu, Rocky Linux), Windows  
+- **Languages**: Python, PowerShell, Bash, C#, Java, Ada
+- **Cybersecurity**: Penetration testing, Linux hardening, malware analysis labs
+- **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware
+- **Systems**: Linux (Ubuntu, Kali, Pop_OS), Windows
 
 ---
 
 ## Contact
-- **LinkedIn**: https://www.linkedin.com/in/caleb-c-a6a0a7271/
-- **Email**: caleb.caballero44@gmail.com  
+- **LinkedIn**: [Caleb Caballero](https://www.linkedin.com/in/caleb-c-a6a0a7271/)
+- **Email**: caleb.caballero44@gmail.com
+- **Resume**: [Link to your resume file or a Google Docs link]
 
 ---
 
