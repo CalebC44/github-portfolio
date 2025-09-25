@@ -1,6 +1,6 @@
 ## About Me
 I am an aspiring cybersecurity professional with experience in:
-- Penetration testing & system hardening
+- Penetration testing, system hardening, and sytem confirgations. 
 - Programming in Python, C, PowerShell, and C#
 - Linux administration (Ubuntu, Rocky Linux)
 - Building and automating secure systems
@@ -14,11 +14,6 @@ I enjoy solving problems, learning new technologies, and applying my knowledge t
 Automated setup of Apache and Nginx with firewall rules and TLS configuration.
 
 **[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
-
-### 🔹 Monopoly in C#
-Recreated the classic board game as a turn-based console application.
-
-**[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Live Demo](https://your-live-demo-link.com)**
 
 ### 🔹 Embedded Systems Encryption (C)
 Implemented an encryption algorithm to enable secure communication between embedded devices.
