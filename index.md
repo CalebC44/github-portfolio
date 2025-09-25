@@ -1,4 +1,3 @@
-## About Me
 I a [your role, e.g., *Cybersecurity Student | Aspiring Security Analyst*] with experience in:
 - Penetration testing & system hardening  
 - Programming in Python, C, PowerShell, and C#  
