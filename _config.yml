@@ -1,7 +1,8 @@
 title: Caleb Caballero - Portfolio
 description: A portfolio showcasing my skills and projects in cybersecurity and programming.
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins: jekyll-include-cache
+
 
 
 
