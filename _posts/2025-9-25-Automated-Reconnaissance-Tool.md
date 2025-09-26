@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Your Post Title"
-date: YYYY-MM-DD
+title: "Automated Reconnaissance Tool"
+date: 2025-09-25
 ---
 
 ### The Idea
