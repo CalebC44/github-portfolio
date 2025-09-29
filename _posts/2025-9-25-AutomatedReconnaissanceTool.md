@@ -5,6 +5,9 @@ This tool was developed to be one of my first projects in this portfolio. It is 
 
 
 ### The steps taken
+Started out by figuring out how to run BASH commands in a python script. After secsfully implenting that the next step was to get user input. 
+
+Once we got user input I found the commands I wanted to use whois and lslookup. Inputing those commands and cleaniing up the out you get basic information about the website.
 
 
 ###Automated Reconnaissance Tool:
