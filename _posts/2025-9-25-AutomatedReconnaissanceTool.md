@@ -15,3 +15,7 @@ This tool was developed to be one of my first projects in this portfolio. It is 
 
 - Skills Demonstrated: Python scripting, OSINT (Open-Source Intelligence), API integration.
 
+
+
+Resources used: https://www.geeksforgeeks.org/python/how-to-run-bash-script-in-python/
+
