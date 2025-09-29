@@ -1,11 +1,10 @@
 ## About Me
-I am an aspiring cybersecurity professional with experience in:
+I am an aspiring cybersecurity professional who enjoys automating secure system deployment, learning new technologies, and applying my knowledge through hands-on projects.
+I have  experience in:
 - Penetration testing, system hardening, and sytem confirgations. 
 - Programming in Python, C, PowerShell, and C#
 - Linux administration (Ubuntu, Rocky Linux)
 - Building and automating secure systems
-
-I enjoy solving problems, learning new technologies, and applying my knowledge through hands-on projects.
 
 ---
 
@@ -14,6 +13,12 @@ I enjoy solving problems, learning new technologies, and applying my knowledge t
 Automated setup of Apache and Nginx with firewall rules and TLS configuration.
 
 **[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
+
+Challenge: What problem was this built to solve?
+
+Tools Used: What specific tools/libraries did you use (e.g., Ansible, Python's requests library, specific Nginx modules)?
+
+Result/Outcome: What did you learn? How successful was the deployment? Quantify the result if possible (e.g., "Reduced deployment time from 2 hours to 5 minutes," or "Successfully identified 5 common subdomain enumeration techniques").
 
 ### 🔹 Automated Reconnaissance Tool
 Created a Python script that takes a domain name as input and automatically performs basic reconnaissance.
@@ -24,7 +29,7 @@ Created a Python script that takes a domain name as input and automatically perf
 
 ## Skills
 - **Languages**: Python, PowerShell, Bash, C#, Java, Ada
-- **Cybersecurity**: Penetration testing, Linux hardening, malware analysis labs
+- **Cybersecurity**: Penetration testing, Linux hardening, Malware Analysis
 - **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware
 - **Systems**: Linux (Ubuntu, Kali, Pop_OS), Windows
 
