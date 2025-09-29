@@ -25,6 +25,13 @@ Created a Python script that takes a domain name as input and automatically perf
 
 **[View the code on GitHub](https://github.com/calebc44/your-repo-name)**
 
+- Challenge: Create a program to quickly find out basic information about a domain name. 
+
+- Tools Used: Python, 
+
+Result/Outcome: What did you learn? How successful was the deployment? Quantify the result if possible (e.g., "Reduced deployment time from 2 hours to 5 minutes," or "Successfully identified 5 common subdomain enumeration techniques").
+
+
 ---
 
 ## Skills
