@@ -6,3 +6,12 @@ This tool was developed to be one of my first projects in this portfolio. It is 
 
 ### The steps taken
 
+
+###Automated Reconnaissance Tool:
+
+- Goal: Create a Python or PowerShell script that takes a domain name as input and automatically performs basic reconnaissance.
+
+- What it shows: Your ability to use APIs (like VirusTotal or Shodan) and command-line tools (like whois or nslookup) within a script.
+
+- Skills Demonstrated: Python scripting, OSINT (Open-Source Intelligence), API integration.
+
