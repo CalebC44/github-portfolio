@@ -38,7 +38,7 @@ Created a Python script that takes a domain name as input and automatically perf
 ## Contact
 - **LinkedIn**: [https://www.linkedin.com/in/caleb-c-a6a0a7271/](https://www.linkedin.com/in/caleb-c-a6a0a7271/)
 - **Email**: caleb.caballero44@gmail.com
-- **Resume**: [Link to your resume file or a Google Docs link]
+- **Resume**: [View Resume (PDF)](https://calebc44.github.io/github-portfolio/Caleb_Caballero_Resume_2025.pdf)
 
 ---
 
