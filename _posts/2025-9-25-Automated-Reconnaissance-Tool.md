@@ -38,4 +38,5 @@ Resources used:
 - Python Request Library: https://pypi.org/project/requests/
 - VirusTotal Docs: https://docs.virustotal.com/reference/domain-info
 - Shodan: https://github.com/achillean/shodan-python
+- Pyhton Script to command line: https://www.youtube.com/watch?v=zi-FIG3efag
 
