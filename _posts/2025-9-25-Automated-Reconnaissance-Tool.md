@@ -42,4 +42,6 @@ We start by defining our functions (default, shodan, and main). Next we define t
 Resources Used: 
 - Python Script to command line: https://www.youtube.com/watch?v=zi-FIG3efag
 
+## [Code](https://github.com/CalebC44/Personal-Projects/blob/main/Automated-Reconnaissance-Tool)
+
 
