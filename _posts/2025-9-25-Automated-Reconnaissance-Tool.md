@@ -1,7 +1,11 @@
 
 
 ### The Idea
-This tool was developed to be one of my first projects in this portfolio. It is a simple tool that taks in a domain name and cheks among websites such as VirusTotal and Shdoan to see if it is malaicous. 
+Build a lightweight, modular reconnaissance utility that takes a domain or a IP as input and returns a overview of the basic information. I wanted to demonstrate the following:
+-basic API usage (e.g., VirusTotal, Shodan),
+-wrapping CLI tools (whois, nslookup/dig) from Python,
+-producing clean, readable terminal output,
+-turning a script into a usable command-line application.
 
 ### idology
 How to add more modules or tools. I would create a seperate file and get it working in there before adding it to the main file. 
