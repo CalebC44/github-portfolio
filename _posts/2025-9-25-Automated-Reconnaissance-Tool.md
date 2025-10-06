@@ -1,49 +1,45 @@
+# Automated Reconnaissance Tool:
 
+## The Idea
+Build a lightweight, modular reconnaissance utility that takes a domain or an IP as input and returns an overview of the basic information. I wanted to demonstrate the following:
+- basic API usage (e.g., VirusTotal, Shodan),
+- wrapping CLI tools (whois, nslookup/dig) from Python,
+- producing clean, readable terminal output,
+- turning a script into a usable command-line application.
 
-### The Idea
-Build a lightweight, modular reconnaissance utility that takes a domain or a IP as input and returns a overview of the basic information. I wanted to demonstrate the following:
--basic API usage (e.g., VirusTotal, Shodan),
--wrapping CLI tools (whois, nslookup/dig) from Python,
--producing clean, readable terminal output,
--turning a script into a usable command-line application.
+## Steps Taken
+### Step 1 - Running Bash Commands in Python
+Started out by figuring out how to run BASH commands in a Python script with os.system.
+After successfully implementing BASH commands, the next step was to get user input using the **input** command.
+Next we use whois and nslookup to get basic information such as domain ownership and the IP address connected to it.
+Lastly, using **grep -e*** to make the output human readable.
 
-### idology
-How to add more modules or tools. I would create a seperate file and get it working in there before adding it to the main file. 
+Resources Used: 
+- Bash scripting in Python: https://www.geeksforgeeks.org/python/how-to-run-bash-script-in-python/
 
+### Step 2 - Integrating VirusTotal API
+Attempting to integrate VirusTotal into the Python script ran into an issue where Python was not registering the variables url, headers, accept, and x-apikey. 
+The first step I did was confirm the request was installed with **sudo apt install python3-request**. After confirming it was installed, I tried just running with other variables and ran into the same issue.
+Turns out Bash was running the program as a shell script, not a Python script. To fix it, I had to add a proper shebang to the top of the file if making it executable: **"#! /bin/python3"**. 
+Once fixed and I had my API key, it was easy to call the website and get the information.
+The next issue I ran into was the output for VirusTotal was in JSON format; I needed a way to clean it up. Solved by importing the JSON Python library and using its functions to clean up the output
 
-### The steps taken
-Started out by figuring out how to run BASH commands in a python script. After secsfully implenting that the next step was to get user input. 
-
-Once we got user input I found the commands I wanted to use whois and lslookup. Inputing those commands and cleaniing up the out you get basic information about the website.
-
-Running into an issue where python is not regeistering the varabiles url, headers, accept, x-apikey. 
-First step was to confirm request was installed with sudo apt install python3-request. 
-Turns out bash was not running it as a python script. I had to add "#! /bin/python3" to the top of the file so they stystem knew to run as a python script. 
-
-
-Next issue the output for VirusTotal is in JSON format so we need a way to clean it up. Solved by imporinting JSON format python library and using its functions to clean up the output
-
-After cleaning up the outputs and putting them together we have our final product! input a domain name and get basic infomation about it.
-
-Next step is adding Shodan to see if there is any exposed services or infrastructure. Ran into an issue where Shodan will only take an IP address. So we have to have 2 diffrent inputs. To Solve this we will turn the script into a command line program
-
-Final Step is making the pyhton script into a command-line application.
-We start by definine our functions default, shodan and main. Next we define the commands they can run (--default & --shodan) and finnaly add in helpfull hits and the start of the program. 
-
-###Automated Reconnaissance Tool:
-
-- Goal: Create a Python or PowerShell script that takes a domain name as input and automatically performs basic reconnaissance.
-
-- What it shows: Your ability to use APIs (like VirusTotal or Shodan) and command-line tools (like whois or nslookup) within a script.
-
-- Skills Demonstrated: Python scripting, OSINT (Open-Source Intelligence), API integration.
-
-
-
-Resources used:
-- Bash scripting in python: https://www.geeksforgeeks.org/python/how-to-run-bash-script-in-python/
+Resources Used: 
 - Python Request Library: https://pypi.org/project/requests/
 - VirusTotal Docs: https://docs.virustotal.com/reference/domain-info
-- Shodan: https://github.com/achillean/shodan-python
-- Pyhton Script to command line: https://www.youtube.com/watch?v=zi-FIG3efag
+  
+### Step 3 - Integrating Shodan API
+Next is adding the Shodan API to see if there are any exposed services or infrastructure. Following their official GitHub page, adding it was easy.
+However, I did run into an issue where Shodan will only take an IP address. To solve this, we will turn the script into a command-line program.
+
+Resources Used: 
+- Shodan github: https://github.com/achillean/shodan-python
+
+### Step 4 - Command-line Application
+The final step is making the Python script into a command-line application.
+We start by defining our functions (default, shodan, and main). Next we define the commands that can be run (--default & --shodan) and finally add in helpful hints, along with the start of the program. 
+
+Resources Used: 
+- Python Script to command line: https://www.youtube.com/watch?v=zi-FIG3efag
+
 
