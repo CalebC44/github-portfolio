@@ -21,7 +21,10 @@ Next issue the output for VirusTotal is in JSON format so we need a way to clean
 
 After cleaning up the outputs and putting them together we have our final product! input a domain name and get basic infomation about it.
 
-Next step is adding Shodan to see if there is any exposed services or infrastructure.
+Next step is adding Shodan to see if there is any exposed services or infrastructure. Ran into an issue where Shodan will only take an IP address. So we have to have 2 diffrent inputs. To Solve this we will turn the script into a command line program
+
+Final Step is making the pyhton script into a command-line application.
+We start by definine our functions default, shodan and main. Next we define the commands they can run (--default & --shodan) and finnaly add in helpfull hits and the start of the program. 
 
 ###Automated Reconnaissance Tool:
 
