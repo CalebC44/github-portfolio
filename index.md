@@ -12,18 +12,18 @@ I have  experience in:
 ### 🔹 Secure Web Server Deployment Scripts
 Automated setup of Apache and Nginx with firewall rules and TLS configuration.
 
-**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/tree/main/Secure%20Web%20Server%20Deployment%20Scripts)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
+**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/tree/main/Secure%20Web%20Server%20Deployment%20Scripts)** | **[Read the Blog Post](https://github.com/CalebC44/github-portfolio/blob/main/_posts/2025-10-7-Secure-Web-Server-Deployment-Scripts.md)**
 
-Challenge: What problem was this built to solve?
+Challenge: Be able to delpoy a secure web server, Apache or Nginx, in under 10 minutes for my CCDC team.
 
-Tools Used: What specific tools/libraries did you use (e.g., Ansible, Python's requests library, specific Nginx modules)?
+Tools Used: Apache, Nginx, Graylogger, 
 
 Result/Outcome: What did you learn? How successful was the deployment? Quantify the result if possible (e.g., "Reduced deployment time from 2 hours to 5 minutes," or "Successfully identified 5 common subdomain enumeration techniques").
 
 ### 🔹 Automated Reconnaissance Tool
 Created a lightweight, modular reconnaissance utility written in Python, that takes a domain or an IP as input and returns an overview of the basic information.
 
-**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/blob/main/Automated-Reconnaissance-Tool) | **[Read the Blog](https://calebc44.github.io/github-portfolio/2025/09/25/Automated-Reconnaissance-Tool.html)****
+**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/blob/main/Automated-Reconnaissance-Tool) | **[Read the Blog Post](https://calebc44.github.io/github-portfolio/2025/09/25/Automated-Reconnaissance-Tool.html)****
 
 - Challenge: Create a Python program to quickly find out basic information about a domain name. 
 
@@ -35,7 +35,7 @@ Result/Outcome: I learned how to integrate bash commands, APIs and JSON formatin
 ## Skills
 - **Languages**: Python, PowerShell, Bash, C#, Java, Ada
 - **Cybersecurity**: Penetration testing, Linux hardening, Malware Analysis
-- **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware
+- **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware, Graylog, Docker, 
 - **Systems**: Linux (Ubuntu, Kali, Pop_OS), Windows
 
 ---
