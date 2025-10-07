@@ -21,17 +21,15 @@ Tools Used: What specific tools/libraries did you use (e.g., Ansible, Python's r
 Result/Outcome: What did you learn? How successful was the deployment? Quantify the result if possible (e.g., "Reduced deployment time from 2 hours to 5 minutes," or "Successfully identified 5 common subdomain enumeration techniques").
 
 ### 🔹 Automated Reconnaissance Tool
-Created a Python script that takes a domain name as input and automatically performs basic reconnaissance.
+Created a lightweight, modular reconnaissance utility written in Python, that takes a domain or an IP as input and returns an overview of the basic information.
 
-**[View the code on GitHub](https://github.com/calebc44/your-repo-name)**
+**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/blob/main/Automated-Reconnaissance-Tool) | **[Read the Blog](https://calebc44.github.io/github-portfolio/2025/09/25/Automated-Reconnaissance-Tool.html)****
 
-- Challenge: Create a program to quickly find out basic information about a domain name. 
+- Challenge: Create a Python program to quickly find out basic information about a domain name. 
 
-- Tools Used: Python, 
+- Tools Used: Python, VirusTotal, Shodan, APIs, nslookup, whois.
 
-Result/Outcome: What did you learn? How successful was the deployment? Quantify the result if possible (e.g., "Reduced deployment time from 2 hours to 5 minutes," or "Successfully identified 5 common subdomain enumeration techniques").
-
-
+Result/Outcome: I learned how to integrate bash commands, APIs and JSON formating into Python. 
 ---
 
 ## Skills
