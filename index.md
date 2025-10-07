@@ -14,11 +14,11 @@ Automated setup of Apache and Nginx with firewall rules and TLS configuration.
 
 **[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/tree/main/Secure%20Web%20Server%20Deployment%20Scripts)** | **[Read the Blog Post](https://github.com/CalebC44/github-portfolio/blob/main/_posts/2025-10-7-Secure-Web-Server-Deployment-Scripts.md)**
 
-Challenge: Be able to delpoy a secure web server, Apache or Nginx, in under 10 minutes for my CCDC team.
+- Challenge: Be able to delpoy a secure web server, Apache or Nginx, in under 10 minutes for my CCDC team.
 
-Tools Used: Apache, Nginx, Graylogger, ModSecurity (WAF), fail2ban, docker, docker=compose
+- Tools Used: Apache, Nginx, Graylogger, ModSecurity (WAF), fail2ban, docker, docker=compose
 
-Result/Outcome: Reduced my typical 30 mintue deployment time down to under 10 mintues. 
+- Result/Outcome: Reduced my typical 30 mintue deployment time down to under 10 mintues. 
 
 ### 🔹 Automated Reconnaissance Tool
 Created a lightweight, modular reconnaissance utility written in Python, that takes a domain or an IP as input and returns an overview of the basic information.
@@ -29,7 +29,7 @@ Created a lightweight, modular reconnaissance utility written in Python, that ta
 
 - Tools Used: Python, VirusTotal, Shodan, APIs, nslookup, whois.
 
-Result/Outcome: I learned how to integrate bash commands, APIs and JSON formating into Python. 
+- Result/Outcome: I learned how to integrate bash commands, APIs and JSON formating into Python. 
 
 ---
 
