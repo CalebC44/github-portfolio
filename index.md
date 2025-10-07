@@ -23,7 +23,7 @@ Result/Outcome: Reduced my typical 30 mintue deployment time down to under 10 mi
 ### 🔹 Automated Reconnaissance Tool
 Created a lightweight, modular reconnaissance utility written in Python, that takes a domain or an IP as input and returns an overview of the basic information.
 
-**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/blob/main/Automated-Reconnaissance-Tool) | **[Read the Blog Post](https://calebc44.github.io/github-portfolio/2025/09/25/Automated-Reconnaissance-Tool.html)****
+**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/blob/main/Automated-Reconnaissance-Tool)** | **[Read the Blog Post](https://calebc44.github.io/github-portfolio/2025/09/25/Automated-Reconnaissance-Tool.html)**
 
 - Challenge: Create a Python program to quickly find out basic information about a domain name. 
 
