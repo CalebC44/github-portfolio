@@ -12,7 +12,7 @@ I have  experience in:
 ### 🔹 Secure Web Server Deployment Scripts
 Automated setup of Apache and Nginx with firewall rules and TLS configuration.
 
-**[View the code on GitHub](https://github.com/calebc44/your-repo-name)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
+**[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/tree/main/Secure%20Web%20Server%20Deployment%20Scripts)** | **[Read the Blog Series (Part 1-3)](https://calebc44.github.io/github-portfolio/blog-post-1)**
 
 Challenge: What problem was this built to solve?
 
