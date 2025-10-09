@@ -3,7 +3,7 @@ I am an aspiring cybersecurity professional who enjoys automating secure system 
 I have  experience in:
 - Penetration testing, system hardening, and sytem confirgations. 
 - Programming in Python, C, PowerShell, and C#
-- Linux administration (Ubuntu, Rocky Linux)
+- Linux administration (Ubuntu, Kali Linux)
 - Building and automating secure systems
 
 ---
