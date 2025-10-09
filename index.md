@@ -2,7 +2,7 @@
 I am an aspiring cybersecurity professional who enjoys automating secure system deployment, learning new technologies, and applying my knowledge through hands-on projects.
 I have  experience in:
 - Penetration testing, system hardening, and sytem confirgations. 
-- Programming in Python, C, PowerShell, and C#
+- Programming in Python, PowerShell, Bash, C#, Java, Ada
 - Linux administration (Ubuntu, Kali Linux)
 - Building and automating secure systems
 
@@ -35,7 +35,7 @@ Created a lightweight, modular reconnaissance utility written in Python, that ta
 
 ## Skills
 - **Languages**: Python, PowerShell, Bash, C#, Java, Ada
-- **Cybersecurity**: Penetration testing, Linux hardening, Malware Analysis
+- **Cybersecurity**: Penetration testing, Linux hardening
 - **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware, Graylog, Docker, 
 - **Systems**: Linux (Ubuntu, Kali, Pop_OS), Windows
 
