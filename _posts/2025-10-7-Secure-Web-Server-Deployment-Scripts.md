@@ -58,6 +58,8 @@ Graylog is a free and open-source log management platform that enables centraliz
 #### Implementation:
 Integrating Graylog was more complex compared to the other security tools. Beyond simply transferring log files, the data needed to be properly formatted so Graylog could parse and display it in a human-readable form. To achieve this, I configured Fluent Bit as a log forwarder to process and convert logs into the GELF (Graylog Extended Log Format) before sending them via Syslog to the Graylog server. This setup allowed for real-time log ingestion, structured data analysis, and improved visibility into security events across the environment.
 
+### Step 6 - Using Docker and Docker compose
+The final step was to create a streamlined process for deploying a secure web server. I used Docker to build the initial web server with its secure configurations preconfigured, ensuring consistent and repeatable setups. Then, using Docker Compose, I combined the web server with all integrated security tools, allowing them to run together seamlessly. After the initial setup and downloading the required files, the entire secure environment can now be launched with just a few lines of code.
 
 
 
