@@ -37,12 +37,22 @@ The next step was to implemnt as many of these rule as possible using the web se
 - Can easliy add a IP restirction with (Require IP X.X.X.X OR 192.168.0.0/24)
 - Added a self signed certifciate and forced HTTPS connections only (Only use this if you are not hosting on a public network. Instead you can use Let's Encrypt to get a free SSL certificate.
 
-### Step 3 - Implentation of a Fail2ban
+Step 4 - Implentation of a WAF (mod-securty) 
+#### What is a WAF?
+A Web Application Firewall (WAF) is a security tool that monitors, filters, and blocks HTTP and HTTPS traffic between a web application and the internet. It acts as a protective layer against common web-based attacks such as SQL injection, cross-site scripting (XSS), and distributed denial-of-service (DDoS) attacks. By inspecting and validating incoming requests, a WAF helps ensure that only legitimate traffic reaches the application.
+
+#### Implementation:
+For this project, I implemented ModSecurity, an open-source WAF known for its flexibility and ease of integration. The setup involved downloading the ModSecurity module and integrating it into the Apache Docker container. Once configured, ModSecurity analyzed incoming web traffic in real time, applying customizable security rules to detect and block malicious requests. This significantly strengthened the web server’s defense against application-layer attacks while maintaining normal user access.
+
+### Step 4 - Implentation of a Fail2ban
 #### What is Fail2Ban? 
 Fail2Ban is an intrusion prevention system (IPS) that protects servers from brute-force attacks and other unauthorized access attempts. It works by monitoring log files for repeated failed login attempts or suspicious activity that violates predefined rules. When a violation is detected, Fail2Ban automatically updates firewall rules to temporarily or permanently block the offending IP address, reducing the risk of further attacks.
 
 #### Implementation: 
 Integrating Fail2Ban was straightforward thanks to its official Docker image. The setup involved mounting the relevant log directories—such as Apache access logs and system logs—into the container and providing a custom configuration file defining which services and patterns to monitor. Once deployed, Fail2Ban actively analyzed incoming logs and dynamically banned malicious IPs at the network level, enhancing the overall security posture of the server with minimal resource overhead.
+
+
+
 
 
 
