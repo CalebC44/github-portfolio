@@ -38,10 +38,10 @@ The next step was to implemnt as many of these rule as possible using the web se
 - Added a self signed certifciate and forced HTTPS connections only (Only use this if you are not hosting on a public network. Instead you can use Let's Encrypt to get a free SSL certificate.
 
 ### Step 3 - Implentation of a Fail2ban
-- What is Fail2Ban? \
+#### What is Fail2Ban? 
 Fail2Ban is an intrusion prevention system (IPS) that protects servers from brute-force attacks and other unauthorized access attempts. It works by monitoring log files for repeated failed login attempts or suspicious activity that violates predefined rules. When a violation is detected, Fail2Ban automatically updates firewall rules to temporarily or permanently block the offending IP address, reducing the risk of further attacks.
 
-- Implementation: \
+#### Implementation: 
 Integrating Fail2Ban was straightforward thanks to its official Docker image. The setup involved mounting the relevant log directories—such as Apache access logs and system logs—into the container and providing a custom configuration file defining which services and patterns to monitor. Once deployed, Fail2Ban actively analyzed incoming logs and dynamically banned malicious IPs at the network level, enhancing the overall security posture of the server with minimal resource overhead.
 
 
