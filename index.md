@@ -35,7 +35,7 @@ Created a lightweight, modular reconnaissance utility written in Python that tak
 
 ## Skills
 - **Languages**: Python, PowerShell, Bash, C#, Java, Ada
-- **Cybersecurity**: Penetration testing, Linux hardening
+- **Cybersecurity**: Penetration testing, Linux hardening, Security Automation, Network Security
 - **Tools**: Nmap, Wireshark, Git, VirtualBox/VMware, Graylog, Docker, 
 - **Systems**: Linux (Ubuntu, Kali, Pop_OS), Windows
 
