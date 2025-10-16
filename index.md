@@ -1,7 +1,7 @@
 ## About Me
 I am an aspiring cybersecurity professional who enjoys automating secure system deployment, learning new technologies, and applying my knowledge through hands-on projects.
 I have  experience in:
-- Penetration testing, system hardening, and sytem confirgations. 
+- Penetration testing, system hardening, and system configurations.
 - Programming in Python, PowerShell, Bash, C#, Java, Ada
 - Linux administration (Ubuntu, Kali Linux)
 - Building and automating secure systems
