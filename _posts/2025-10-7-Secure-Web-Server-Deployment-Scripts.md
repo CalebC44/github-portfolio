@@ -37,7 +37,7 @@ The next step was to implemnt as many of these rule as possible using the web se
 - Can easliy add a IP restirction with (Require IP X.X.X.X OR 192.168.0.0/24)
 - Added a self signed certifciate and forced HTTPS connections only (Only use this if you are not hosting on a public network. Instead you can use Let's Encrypt to get a free SSL certificate.
 
-Step 4 - Implentation of a Web Application Firewall (WAF)
+### Step 4 - Implentation of a Web Application Firewall (WAF)
 #### What is a WAF?
 A WAF is a security tool that monitors, filters, and blocks HTTP and HTTPS traffic between a web application and the internet. It acts as a protective layer against common web-based attacks such as SQL injection, cross-site scripting (XSS), and distributed denial-of-service (DDoS) attacks. By inspecting and validating incoming requests, a WAF helps ensure that only legitimate traffic reaches the application.
 
