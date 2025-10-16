@@ -10,7 +10,7 @@ I have  experience in:
 
 ## Featured Projects
 ### 🔹 Secure Web Server Deployment Scripts
-Automated setup of Apache and Nginx with Intrustion Prevention System (IPS), Security Information and Event Management (SIEM) and a Web-Application Firewall (WAF0 
+Automated setup of Apache and Nginx with Intrustion Prevention System (IPS), Security Information and Event Management (SIEM) and a Web-Application Firewall (WAF)
 
 **[View the code on GitHub](https://github.com/CalebC44/Personal-Projects/tree/main/Secure%20Web%20Server%20Deployment%20Scripts)** | **[Read the Blog Post](https://calebc44.github.io/github-portfolio/2025/10/07/Secure-Web-Server-Deployment-Scripts.html)**
 
