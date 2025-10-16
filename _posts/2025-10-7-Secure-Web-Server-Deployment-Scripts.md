@@ -51,6 +51,14 @@ Fail2Ban is an intrusion prevention system (IPS) that protects servers from brut
 #### Implementation: 
 Integrating Fail2Ban was straightforward thanks to its official Docker image. The setup involved mounting the relevant log directories—such as Apache access logs and system logs—into the container and providing a custom configuration file defining which services and patterns to monitor. Once deployed, Fail2Ban actively analyzed incoming logs and dynamically banned malicious IPs at the network level, enhancing the overall security posture of the server with minimal resource overhead.
 
+### Step 4 - Implentation of a Graylog
+#### What is Graylog?
+Graylog is a free and open-source log management platform that enables centralized collection, indexing, and analysis of logs from multiple sources. It provides a powerful interface for searching, visualizing, and correlating log data, making it easier to monitor system activity, detect anomalies, and troubleshoot issues across an environment.
+
+#### Implementation:
+Integrating Graylog was more complex compared to the other security tools. Beyond simply transferring log files, the data needed to be properly formatted so Graylog could parse and display it in a human-readable form. To achieve this, I configured Fluent Bit as a log forwarder to process and convert logs into the GELF (Graylog Extended Log Format) before sending them via Syslog to the Graylog server. This setup allowed for real-time log ingestion, structured data analysis, and improved visibility into security events across the environment.
+
+
 
 
 
