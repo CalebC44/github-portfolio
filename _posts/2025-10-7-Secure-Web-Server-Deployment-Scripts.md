@@ -5,7 +5,7 @@ To build out a set of instructions to easily be able to deplot a Apache or Nginx
 
 ## Steps Taken
 ### Step 1 - Initial reasearch 
-I needed to figure out what a secure web server looked like. To do this is Used 2 main resources. 
+I needed to figure out what a secure web server looked like. To do this is Used 2 main resources. \
 Apache
 - [Apache Offical Documentation](https://httpd.apache.org/docs/2.4/misc/security_tips.html) 
 - [Dream Host](https://help.dreamhost.com/hc/en-us/articles/226327268-The-most-important-steps-to-take-to-make-an-Apache-server-more-secure)
