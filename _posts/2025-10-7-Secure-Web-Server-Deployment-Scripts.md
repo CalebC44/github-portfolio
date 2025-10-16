@@ -28,7 +28,13 @@ The basic rules to follow are:
 - Regular monitoring, alerts, and log analysis
 - Remove unused modules and minimize features
 
-  ### Step 2 - Implentation of secure configation
-  The next step was to implemnt as many of these rule as possible using the web server configrations.
-  - Keep software up to date
-    - Ensure the System is up to date with: sudo apt update && sudo apt upgrade 
+### Step 2 - Implentation of a secure configuration
+The next step was to implemnt as many of these rule as possible using the web server configrations.
+- Keep software up to date
+- Ensured the System was up to date with: sudo apt update && sudo apt upgrade
+- Turned server Tokens off in the configutaion file, hiding the version in the header
+- Restricted file access by settinga a home directory with <Directory "/var/www/html"> and restirction access with Require all granted, Options FollowSymLinks, and AllowOverride None.
+- Can easliy add a IP restirction with (Require IP X.X.X.X OR 192.168.0.0/24)
+- Added a self signed certifciate and forced HTTPS connections only (Only use this if you are not hosting on a public network. Instead you can use Let's Encrypt to get a free SSL certificate. 
+
+
